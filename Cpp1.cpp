@@ -5,8 +5,8 @@ using namespace std;
 
 int main ()
 {
-	Cpp1 *Hello = new Cpp1;
-	(*Hello).printHello();
+	Cpp1 Hello ;
+	Hello.printHello();
 	
 	return 0;
 }
